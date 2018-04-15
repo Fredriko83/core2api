@@ -6,7 +6,6 @@ namespace estore.API.Data
     public class EstoreDBContext : DbContext
     {
         public EstoreDBContext(DbContextOptions<EstoreDBContext> options) : base(options){}
-        public DbSet<Brand> Brands { get; set; }
-        
+        public DbSet<Brand> Brands { get; set; }        
     }
 }
